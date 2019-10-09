@@ -8,3 +8,10 @@ Each adapter may have additional peer dependencies which you will need to instal
 
 Source: https://github.com/airbnb/enzyme
 
+
+
+**USEFUL LINKS:**
+
+ - https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009
+ - https://www.npmjs.com/package/nock (setup for mock pretend url calls for asynchronous tests)
+ - https://www.npmjs.com/package/supertest (API testing)
