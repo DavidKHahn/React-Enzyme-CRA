@@ -39,3 +39,19 @@ it('filters robots correctly', () => {
 })
 // redux-mock-store (npm package for redux store)
 // we can also export the 'App' component using 'export class App extends Component {' ...and import just the App component into our tests
+it('filters robots correctly 2', () => {
+    const mockProps3 = {
+                onRequestRobots: jest.fn(),
+                robots: [{
+                    id: 3,
+                    name: 'John',
+                    email: 'john@gmail.com'
+                }],
+                searchField: 'a',
+                isPending: false
+            }
+            const filteredRobots = []
+    const wrapper3 = shallow(<MainPage {...mockProps3} />)
+    expect(wrapper3.instance().filterRobots()).toEqual(filteredRobots)
+})
+// npm test -- --coverage (checking test coverage status)
