@@ -12,6 +12,6 @@ Source: https://github.com/airbnb/enzyme
 
 **USEFUL LINKS:**
 
- - https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009
+ - ##### Lean Testing or Why Unit Tests are Worse than You Think: https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009
  - https://www.npmjs.com/package/nock (setup for mock pretend url calls for asynchronous tests)
  - https://www.npmjs.com/package/supertest (API testing)
